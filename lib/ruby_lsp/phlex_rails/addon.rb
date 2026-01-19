@@ -37,6 +37,8 @@ module RubyLsp
 							RubyIndexer::Entry::ForwardingParameter.new,
 						]),
 					], visibility: :public)
+				else
+					# no-op
 				end
 			end
 		end
