@@ -14,7 +14,7 @@ test "missing helpers" do
 	end
 
 	assert_equal error.message, <<~MESSAGE
-		Try including `Phlex::Rails::Helpers::LinkTo` in Components::Post.
+		Try including `Phlex::Rails::Helpers::LinkTo` in Components::Post, like so:
 		```ruby
 		include Phlex::Rails::Helpers::LinkTo
 		```
