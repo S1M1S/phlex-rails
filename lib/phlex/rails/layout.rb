@@ -10,8 +10,10 @@ module Phlex::Rails
 		include Helpers::ActionCableMetaTag
 		include Helpers::AutoDiscoveryLinkTag
 		include Helpers::JavaScriptIncludeTag
+		include Helpers::JavaScriptImportmapModulePreloadTags
 		include Helpers::JavaScriptImportmapTags
 		include Helpers::JavaScriptImportModuleTag
+		include Helpers::JavaScriptInlineImportmapTag
 		include Helpers::TurboRefreshMethodTag
 		include Helpers::TurboRefreshScrollTag
 		include Helpers::TurboRefreshesWith
